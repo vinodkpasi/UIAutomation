@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "baseUrl": "cypress",
+    "types": [
+      "cypress",
+      "cypress-xpath",
+      "cypress-grep",
+      "./cypress/support",
+      "cy-verify-downloads",
+      "cypress-file-upload",
+      "@types/mocha"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "uiautomation",
+  "version": "1.0.0",
+  "description": "UI Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mergereport": "npx mochawesome-merge ./cypress/reports/*.json -o ./cypress/reports/output.json && npx marge ./cypress/reports/output.json --reportDir=./ --reportFilename=./cypress/reports/mergereport.html && npx rimraf ./assets",
+    "finderrors": "npx eslint ./cypress/**/*.ts",
+    "fixerrors": "npx eslint ./cypress/**/*.ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.1",
+    "@types/mocha": "^9.1.1",
+    "cy-verify-downloads": "^0.1.8",
+    "cypress": "^10.4.0",
+    "cypress-downloadfile": "^1.2.2",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-grep": "^3.0.2",
+    "cypress-xpath": "^2.0.1",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
