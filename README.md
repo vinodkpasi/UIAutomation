@@ -13,7 +13,7 @@ This repo provides ready to use features for Cypress Automation.
 * Drag and Drop plugin integration 
 * Custom command for download verification 
 * TypeScript configuration
-* Multiple environment support 
+* Production environment support 
 * Retry feature enabled
 
 # Installation
