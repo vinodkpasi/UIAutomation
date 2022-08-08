@@ -93,7 +93,7 @@ Use the 'grepTags' environment variable to run the specs based on the tag name.
 
   **npx cypress run --env grepTags='config'**
 
-Both environment variables are also defined inside the config file you just need to specify the value so don't to pass on the command-line.
+Both environment variables are also defined inside the config file you just need to specify the value so don't need to pass on the command-line.
 
 ### POM example 
 To do...
