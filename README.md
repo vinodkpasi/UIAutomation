@@ -68,3 +68,6 @@ After execution Mochawesome report is generated  in the **cypress/reports** dire
 
 Below is the screenshot for the same.
 ![Screenshot](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/images/mergereport.png "This is a sample report screenshot.")
+
+### Prettier integration-Formatting
+To support the code fomatting and rules check prettier is configured. You need to install the [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) VSCode extension. If you save the typescript file code will be auto-formatted. 
