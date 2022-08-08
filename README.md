@@ -93,7 +93,10 @@ Use the 'grepTags' environment variable to run the specs based on the tag name.
 
   **npx cypress run --env grepTags='config'**
 
-Both environment variables are also defined inside the config file you just need to specify the value so don't need to pass on the command-line.
+Both environment variables are also defined inside the config file(env section) you just need to specify the value so don't need to pass on the command-line.
+
+### Retry feature enabled
+By default, retry feature is enabled inside the config file for 'cypress run' and 'cypress open' command with count 2.
 
 ### POM example 
 To do...
