@@ -10,7 +10,7 @@ This repo provides ready to use features for Cypress Automation.
 * Xpath plugin integration 
 * POM Example
 * Application exception handling 
-* Drag and Drop plugin integration 
+* Drag and drop plugin integration 
 * Custom command for download verification 
 * TypeScript configuration
 * Production environment support 
