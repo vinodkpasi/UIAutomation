@@ -75,9 +75,11 @@ To support the code fomatting and rules check prettier is configured. You need t
 ### ESLint integration-Code quality 
 To support the coding coding standard and cypress standard eslint is configured.
 Run the below command to find the eslint/prettier issue.
+
   **npm run finderrors**
 
 Run the below command to fix the auto-fixable issue.
+
   **npm run fixerrors**
 
 
