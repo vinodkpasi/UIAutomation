@@ -55,3 +55,6 @@ To support the drag and drop functionality  [@4tw/cypress-drag-drop](https://www
 
 ### XPath plugin integration 
 To support the xpath locator [cypress-xpath](https://www.npmjs.com/package/cypress-xpath) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/xpath.spec.cy.ts) spec.
+
+### File upload plugin integration  
+To support the file upload [cypress-file-upload](https://www.npmjs.com/package/cypress-file-upload) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/upload.spec.cy.ts) spec.
