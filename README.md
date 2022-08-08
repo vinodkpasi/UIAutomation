@@ -25,7 +25,7 @@ Run the below command to setup the repository
 VSCode
 
 # VSCode Extension 
-[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode).
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 # Execution  
 **npx cypress run**
