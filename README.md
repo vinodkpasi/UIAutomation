@@ -28,4 +28,5 @@ Prettier Code Formatter
 
 # Execution 
 **npx cypress run**
+
 **npx cypress open**
