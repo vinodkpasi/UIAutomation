@@ -13,7 +13,9 @@ module.exports = defineConfig({
     },
   },
   env: {
-    grepFilterSpecs: true
+    grepFilterSpecs: true,
+    grep:'',
+    grepTags:''
   },
   retries: { runMode: 2, openMode: 2 },
   video: false,

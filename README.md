@@ -84,6 +84,15 @@ Run the below command to fix the auto-fixable issue.
 
 ### Tagging 
 To support the tagging [cypress-grep](https://www.npmjs.com/package/cypress-grep) plugin is configured. For use case example refer [tags.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/tags.spec.cy.ts) spec.
-Use the 'grepTags' environment variable to run a specfic tag for example 'config'.
+Use the 'grep' environment variable to run the specs based on title text.
+
+  **npx cypress run --env grep='Xpath test'**
+
+Use the 'grepTags' environment variable to run the specs based on the tag name.
 
   **npx cypress run --env grepTags='config'**
+
+Both environment variables can also be defined inside the config file.
+
+### POM example 
+To do...
