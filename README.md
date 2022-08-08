@@ -65,3 +65,5 @@ By default, any type of uncaught exception is handled for the application except
 After execution Mochawesome report is generated  in the **cypress/reports** directory. By default, html report file is generated for each test suite. To merge all html report files into one html report file named **mergereport.html**  you can run below command.
 
 **npm run mergereport**
+
+[Screenshot](/images/mergereport.png "This is a sample report screenshot.")
