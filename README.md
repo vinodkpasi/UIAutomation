@@ -66,4 +66,4 @@ After execution Mochawesome report is generated  in the **cypress/reports** dire
 
 **npm run mergereport**
 
-![Screenshot](/images/mergereport.png "This is a sample report screenshot.")
+![Screenshot](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/images/mergereport.png "This is a sample report screenshot.")
