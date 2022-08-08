@@ -46,3 +46,6 @@ To support the production environment **production.config.js** file can be used.
   **OR**
 
 **npx cypress open --config-file production.config.js**
+
+### Download Verfication
+You can use the custom command **verifyDownload** to verify the downloaded file. For use case example refer[downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/b9a7febd915576d40c8a3c1d7b62e1f47ce46cbb/cypress/e2e/examples/downloadVerfication.cy.ts#L23)spec.
