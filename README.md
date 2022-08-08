@@ -62,5 +62,6 @@ To support the file upload [cypress-file-upload](https://www.npmjs.com/package/c
 By default, any type of uncaught exception is handled for the application exception. Refer [commands.js](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/support/commands.js) file.
 
 ### Report generation 
-After execution Mochawesome report is generated  in the **cypress/reports** directory. By default, html report file is generated for each test suite. To merge all html report files into one html report file you can run below command.
+After execution Mochawesome report is generated  in the **cypress/reports** directory. By default, html report file is generated for each test suite. To merge all html report files into one html report file named **mergereport.html**  you can run below command.
+
 **npm run mergereport**
