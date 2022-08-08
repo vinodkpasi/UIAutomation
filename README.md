@@ -2,7 +2,7 @@
 This repo provides ready to use features for Cypress Automation.
 ### Features
 * Prettier integration-Formatting
-* ESLint integration--Code quality 
+* ESLint integration-Code quality 
 * Tagging 
 * Report generation
 * File upload plugin integration 
@@ -71,3 +71,13 @@ Below is the screenshot for the same.
 
 ### Prettier integration-Formatting
 To support the code fomatting and rules check prettier is configured. You need to install the [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) VSCode extension. If you save the typescript file code will be auto-formatted. 
+
+### ESLint integration-Code quality 
+To support the coding coding standard and cypress standard eslint is configured.
+Run the below command to find the eslint/prettier issue.
+  **npm run finderrors**
+
+Run the below command to fix the auto-fixable issue.
+  **npm run fixerrors**
+
+
