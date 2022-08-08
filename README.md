@@ -14,3 +14,4 @@ This repo provides ready to use features for Cypress Automation.
 (11) Custom command for download verification 
 (12) TypeScript configuration
 (13) Multiple environment support 
+(14) Retry feature enabled
