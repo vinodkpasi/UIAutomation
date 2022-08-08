@@ -8,4 +8,5 @@ This repo provides ready to use features for Cypress Automation.
 (5) Mochawesome all-in one suite report generation
 (6) File upload plugin integration 
 (7) Xpath plugin integration 
-
+(8) POM Example
+(9) Application exception handling 
