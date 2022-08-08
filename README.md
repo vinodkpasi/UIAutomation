@@ -29,6 +29,6 @@ Prettier Code Formatter
 # Execution 
 **npx cypress run**
 
-**     OR    **
+      **OR**
 
 **npx cypress open**
