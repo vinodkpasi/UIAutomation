@@ -2,7 +2,7 @@
 This repo provides ready to use features for Cypress Automation.
 ### Features
 * Prettier integration
-* ESLint Integration 
+* ESLint integration 
 * Tagging 
 * Mochawesome individual suite report generation
 * Mochawesome all-in one suite report generation
