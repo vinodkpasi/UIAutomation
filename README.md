@@ -1,11 +1,6 @@
 # UIAutomation
 This repo provides ready to use features for Cypress Automation.
 ### Features
-
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
 * Prettier integration
 * ESLint Integration 
 * Tagging 
