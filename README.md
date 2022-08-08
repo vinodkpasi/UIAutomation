@@ -21,7 +21,7 @@ Run the below command to setup the repository
 npm install
 
 # Editor
-VSode
+VSCode
 
 # VSCode Extension 
 Prettier Code Formatter
