@@ -15,3 +15,18 @@ This repo provides ready to use features for Cypress Automation.
 (12) TypeScript configuration
 (13) Multiple environment support 
 (14) Retry feature enabled
+
+# Installation
+Run the below command to setup the repository 
+npm install
+
+# Editor
+VSode
+
+# VSCode Extension 
+Prettier Code Formatter
+
+# Execution 
+npx cypress run
+      or
+npx cypress open
