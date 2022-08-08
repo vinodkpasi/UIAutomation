@@ -35,6 +35,9 @@ VSCode
 **npx cypress open**
 
 # Features details
+### TypeScript configuration
+This repo is configured for TypeScript. You can use the **tsconfig.json** file to chnage the typescript configuration.
+
 ### Production environment support 
 To support the production environment **production.config.js** file can be used. Run the below command to use this file.
   
