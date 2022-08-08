@@ -4,8 +4,7 @@ This repo provides ready to use features for Cypress Automation.
 * Prettier integration
 * ESLint integration 
 * Tagging 
-* Mochawesome individual suite report generation
-* Mochawesome all-in one suite report generation
+* Report generation
 * File upload plugin integration 
 * Xpath plugin integration 
 * POM Example
@@ -59,5 +58,9 @@ To support the xpath locator [cypress-xpath](https://www.npmjs.com/package/cypre
 ### File upload plugin integration  
 To support the file upload [cypress-file-upload](https://www.npmjs.com/package/cypress-file-upload) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/upload.spec.cy.ts) spec.
 
-### Exception Handling 
+### Exception handling 
 By default, any type of uncaught exception is handled for the application exception. Refer [commands.js](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/support/commands.js) file.
+
+### Report generation 
+After execution Mochawesome report is generated  in the **cypress/reports** directory. By default, html report file is generated for each test suite. To merge all html report files into one html report file you can run below command.
+**npm run mergereport**
