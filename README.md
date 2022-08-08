@@ -27,6 +27,6 @@ VSCode
 Prettier Code Formatter
 
 # Execution 
-npx cypress run
+* npx cypress run
       or
-npx cypress open
+* npx cypress open
