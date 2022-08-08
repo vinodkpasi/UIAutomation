@@ -33,3 +33,13 @@ VSCode
   **OR**
 
 **npx cypress open**
+
+# Features details
+### Production environment support 
+To support the production environment **production.config.js** file can be used. Run the below command to use this file.
+  
+**npx cypress run --config-file production.config.js**
+
+  **OR**
+
+**npx cypress open --config-file production.config.js**
