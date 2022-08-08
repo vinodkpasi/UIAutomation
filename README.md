@@ -48,7 +48,7 @@ To support the production environment **production.config.js** file can be used.
 **npx cypress open --config-file production.config.js**
 
 ### Download verfication
-You can use the custom command **verifyDownload** to verify the downloaded file. For use case example refer [downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/b9a7febd915576d40c8a3c1d7b62e1f47ce46cbb/cypress/e2e/examples/downloadVerfication.cy.ts#L23) spec.
+You can use the custom command **verifyDownload** to verify the downloaded file(based on [cy-verify-downloads](https://www.npmjs.com/package/cypress-xpath) plugin). For use case example refer [downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/b9a7febd915576d40c8a3c1d7b62e1f47ce46cbb/cypress/e2e/examples/downloadVerfication.cy.ts#L23) spec.
 
 ### Drag and drop plugin integration 
 To support the drag and drop functionality  [@4tw/cypress-drag-drop](https://www.npmjs.com/package/@4tw/cypress-drag-drop) plugin is configured. For use case example refer [dragDrop.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/dragDrop.spec.cy.ts) spec.
