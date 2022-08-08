@@ -100,3 +100,13 @@ By default, retry feature is enabled inside the config file for 'cypress run' an
 
 ### POM example 
 To do...
+
+### Data-driven example 
+To do...
+
+### POM example 
+To do...
+
+### Jenkins integration 
+To do...
+
