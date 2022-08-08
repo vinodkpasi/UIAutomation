@@ -13,7 +13,8 @@
       "./cypress/support",
       "cy-verify-downloads",
       "cypress-file-upload",
-      "@types/mocha"
+      "@types/mocha",
+      "@4tw/cypress-drag-drop"
     ]
   },
   "include": [
