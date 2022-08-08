@@ -60,4 +60,4 @@ To support the xpath locator [cypress-xpath](https://www.npmjs.com/package/cypre
 To support the file upload [cypress-file-upload](https://www.npmjs.com/package/cypress-file-upload) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/upload.spec.cy.ts) spec.
 
 ### Exception Handling 
-By default, any type of uncaught exception is handled for the application exception refer [commands.js](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/support/commands.js) file.
+By default, any type of uncaught exception is handled for the application exception. Refer [commands.js](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/support/commands.js) file.
