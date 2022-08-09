@@ -1,6 +1,7 @@
 class LoginPage {
   navigate() {
     cy.visit("/login");
+    cy.get('h2').should('have.text','Login Page')
   }
   get message() {
     return cy.get("#flash-messages");
