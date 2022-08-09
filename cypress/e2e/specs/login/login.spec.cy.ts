@@ -1,10 +1,10 @@
-import LoginPage from "../pages/login.page";
+import LoginPage from "../../pages/login/login.page";
 
 describe("Login suite", function () {
   const login = new LoginPage();
   beforeEach(function () {
     login.navigate();
-    cy.fixture("login").then(function (data) {
+    cy.fixture("login/login").then(function (data) {
       this.data = data;
     });
   });

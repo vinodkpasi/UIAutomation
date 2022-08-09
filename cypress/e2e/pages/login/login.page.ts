@@ -1,4 +1,6 @@
-class LoginPage {
+import BasePage from "../base.page";
+
+class LoginPage extends BasePage {
   navigate() {
     cy.visit("/login");
     cy.get("h2").should("have.text", "Login Page");
