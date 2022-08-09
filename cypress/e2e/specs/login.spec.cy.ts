@@ -10,32 +10,30 @@ describe("Login suite", function () {
   });
 
   it("Successful login", function () {
-    login.login(this.data.username, this.data.password);
-    login.message.should("contain.text", this.data.successMessage);
+    login
+      .login(this.data.username, this.data.password)
+      .message.should("contain.text", this.data.successMessage);
   });
 
   it("Unsuccessful login with incorrect password", function () {
-    login.login(this.data.username, this.data.incorrectPassword);
-    login.message.should(
-      "contain.text",
-      this.data.errorMessageForInvalidPassword
-    );
+    login
+      .login(this.data.username, this.data.incorrectPassword)
+      .message.should("contain.text", this.data.errorMessageForInvalidPassword);
   });
 
   it("Unsuccessful login with incorrect username", function () {
-    login.login(this.data.incorrectUsername, this.data.password);
-    login.message.should(
-      "contain.text",
-      this.data.errorMessageForInvalidUsername
-    );
+    login
+      .login(this.data.incorrectUsername, this.data.password)
+      .message.should("contain.text", this.data.errorMessageForInvalidUsername);
   });
 
   it("Unsuccessful login with incorrect username and incorrect password", function () {
-    login.login(this.data.incorrectUsername, this.data.incorrectPassword);
-    login.message.should(
-      "contain.text",
-      this.data.errorMessageForInvalidCredentials
-    );
+    login
+      .login(this.data.incorrectUsername, this.data.incorrectPassword)
+      .message.should(
+        "contain.text",
+        this.data.errorMessageForInvalidCredentials
+      );
   });
 
   it("Unsuccessful login with empty username", function () {

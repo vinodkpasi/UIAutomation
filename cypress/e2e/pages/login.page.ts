@@ -1,7 +1,8 @@
 class LoginPage {
   navigate() {
     cy.visit("/login");
-    cy.get('h2').should('have.text','Login Page')
+    cy.get("h2").should("have.text", "Login Page");
+    return this;
   }
   get message() {
     return cy.get("#flash-messages");
@@ -20,6 +21,7 @@ class LoginPage {
     this.username.type(username);
     this.password.type(password);
     this.submit.click();
+    return this;
   }
 }
 export default LoginPage;
