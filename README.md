@@ -13,7 +13,7 @@ This repo provides ready to use features for Cypress Automation.
 * Custom command for download verification 
 * TypeScript configuration
 * Production environment support 
-* Retry feature enabled
+* Retry feature 
 
 # Installation
 Run the below command to setup the repository
@@ -95,7 +95,7 @@ Use the 'grepTags' environment variable to run the specs based on the tag name.
 
 Both environment variables are also defined inside the config file(env section) you just need to specify the value so don't need to pass on the command-line.
 
-### Retry feature enabled
+### Retry feature 
 By default, retry feature is enabled inside the config file for 'cypress run' and 'cypress open' command with count 2.
 
 ### POM example 
