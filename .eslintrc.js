@@ -9,7 +9,8 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:cypress/recommended',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
