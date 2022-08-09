@@ -47,16 +47,16 @@ To support the production environment **production.config.js** file can be used.
 **npx cypress open --config-file production.config.js**
 
 ### Download verfication
-You can use the custom command **verifyDownload** to verify the downloaded file(based on [cy-verify-downloads](https://www.npmjs.com/package/cypress-xpath) plugin). For use case example refer [downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/b9a7febd915576d40c8a3c1d7b62e1f47ce46cbb/cypress/e2e/examples/downloadVerfication.cy.ts#L23) spec.
+You can use the custom command **verifyDownload** to verify the downloaded file(based on [cy-verify-downloads](https://www.npmjs.com/package/cypress-xpath) plugin). For use case example refer [downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/b9a7febd915576d40c8a3c1d7b62e1f47ce46cbb/cypress/e2e/specs/downloadVerfication.cy.ts#L23) spec.
 
 ### Drag and drop plugin integration 
-To support the drag and drop functionality  [@4tw/cypress-drag-drop](https://www.npmjs.com/package/@4tw/cypress-drag-drop) plugin is configured. For use case example refer [dragDrop.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/dragDrop.spec.cy.ts) spec.
+To support the drag and drop functionality  [@4tw/cypress-drag-drop](https://www.npmjs.com/package/@4tw/cypress-drag-drop) plugin is configured. For use case example refer [dragDrop.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/dragDrop.spec.cy.ts) spec.
 
 ### XPath plugin integration 
-To support the xpath locator [cypress-xpath](https://www.npmjs.com/package/cypress-xpath) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/xpath.spec.cy.ts) spec.
+To support the xpath locator [cypress-xpath](https://www.npmjs.com/package/cypress-xpath) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/xpath.spec.cy.ts) spec.
 
 ### File upload plugin integration  
-To support the file upload [cypress-file-upload](https://www.npmjs.com/package/cypress-file-upload) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/upload.spec.cy.ts) spec.
+To support the file upload [cypress-file-upload](https://www.npmjs.com/package/cypress-file-upload) plugin is configured. For use case example refer [xpath.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/upload.spec.cy.ts) spec.
 
 ### Exception handling 
 By default, any type of uncaught exception is handled for the application exception. Refer [commands.js](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/support/commands.js) file.
@@ -83,7 +83,7 @@ Run the below command to fix the auto-fixable issue.
   **npm run fixerrors**
 
 ### Tagging 
-To support the tagging [cypress-grep](https://www.npmjs.com/package/cypress-grep) plugin is configured. For use case example refer [tags.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/examples/tags.spec.cy.ts) spec.
+To support the tagging [cypress-grep](https://www.npmjs.com/package/cypress-grep) plugin is configured. For use case example refer [tags.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/tags.spec.cy.ts) spec.
 
 Use the 'grep' environment variable to run the specs based on title text.
 
