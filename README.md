@@ -98,14 +98,11 @@ Both environment variables are also defined inside the config file(env section) 
 ### Retry feature 
 By default, retry feature is enabled inside the config file for 'cypress run' command with count 2.
 
-### POM example 
-Coming soon...
-
-### Jenkins integration 
-Coming soon...
-
 ### Data-driven example 
-Coming soon...
+For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login.spec.cy.ts) spec.
+
+### POM example 
+For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login.spec.cy.ts) spec.
 
 ### API testing example 
 Coming soon...
@@ -113,5 +110,6 @@ Coming soon...
 ### Visual testing example
 Coming soon...
 
-
+### Jenkins integration 
+Coming soon...
 
