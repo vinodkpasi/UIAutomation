@@ -1,7 +1,7 @@
 describe("Upload suite", () => {
   it("Upload test", () => {
     // launch URL
-    cy.visit("https://the-internet.herokuapp.com/upload");
+    cy.visit("/upload");
 
     // upload file with attachFile
     cy.get("#file-upload").attachFile("../uploads/testfile.txt");

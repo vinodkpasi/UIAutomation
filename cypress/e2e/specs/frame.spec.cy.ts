@@ -1,7 +1,7 @@
 describe("IFrame suite", () => {
   it("IFrame test", () => {
     // launch URL
-    cy.visit("https://the-internet.herokuapp.com/iframe");
+    cy.visit("/iframe");
 
     // Validate default text
     cy.switchToIframe("#mce_0_ifr")

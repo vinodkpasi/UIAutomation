@@ -1,0 +1,14 @@
+{
+  "username": "tomsmith",
+  "password": "SuperSecretPassword!",
+  "incorrectUsername": "tomsmithxyzabc",
+  "incorrectPassword": "IuperSecretPassword!",
+  "successMessage":"You logged into a secure area!",
+  "errorMessageForEmptyCredentials":"Your username is invalid!",
+  "errorMessageForInvalidCredentials":"Your username is invalid!",
+  "errorMessageForEmptyUsername":"Your username is invalid!",
+  "errorMessageForEmptyPassword":"Your password is invalid!",
+  "errorMessageForInvalidUsername":"Your username is invalid!",
+  "errorMessageForInvalidPassword":"Your password is invalid!"
+  
+}

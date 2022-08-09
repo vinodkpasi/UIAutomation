@@ -1,7 +1,7 @@
 describe("Download verification suite", () => {
   it("Download verification test", () => {
     // launch URL
-    cy.visit("https://the-internet.herokuapp.com/download");
+    cy.visit("/download");
     cy.window()
       .document()
       .then((doc) => {

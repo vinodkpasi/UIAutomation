@@ -96,7 +96,7 @@ Use the 'grepTags' environment variable to run the specs based on the tag name.
 Both environment variables are also defined inside the config file(env section) you just need to specify the value so don't need to pass on the command-line.
 
 ### Retry feature 
-By default, retry feature is enabled inside the config file for 'cypress run' and 'cypress open' command with count 2.
+By default, retry feature is enabled inside the config file for 'cypress run' command with count 2.
 
 ### POM example 
 Coming soon...
