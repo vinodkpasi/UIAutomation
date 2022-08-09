@@ -104,6 +104,9 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 ### POM example 
 For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login.spec.cy.ts) spec.
 
+### Fluent API 
+For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login.spec.cy.ts) spec.
+
 ### API testing example 
 Coming soon...
 
