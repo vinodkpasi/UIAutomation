@@ -20,7 +20,9 @@ class LoginPage extends BasePage {
   }
 
   login(username: string, password: string) {
+    this.username.clear();
     this.username.type(username);
+    this.password.clear();
     this.password.type(password);
     this.submit.click();
     return this;
