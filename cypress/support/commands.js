@@ -38,3 +38,11 @@ Cypress.Commands.add('switchToIframe', (iframe) => cy.get(iframe).its('0.content
 // Handles unhandled exception
 // eslint-disable-next-line no-unused-vars
 Cypress.on('uncaught:exception', (err, runnable) => false);
+
+Cypress.Commands.add("switchToWindow",(url)=>{
+  cy.window().then((win) => {
+    cy.stub(win, "open").callsFake(() => {
+        win.location.href = url;
+      });
+  });
+})
