@@ -51,7 +51,7 @@ To support the production environment **production.config.js** file can be used.
 ### Download verfication
 You can use the custom command **verifyDownload** to verify the downloaded file(based on [cy-verify-downloads](https://www.npmjs.com/package/cypress-xpath) plugin). For use case example refer [downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/downloadVerfication.cy.ts) spec.
 
-### Browser popup window
+### Browser popup window helper
 You can use the custom command **switchToWindow** to switch to the browser popup window. For use case example refer [browserPopupWindow.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/browserPopupWindow.cy.ts) spec.
 
 ### Drag and drop plugin integration 
