@@ -122,6 +122,9 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 ### Tab helper
 Coming soon...
 
+### Web Table Helper
+Coming soon...
+
 ### API testing example 
 Coming soon...
 
