@@ -116,7 +116,7 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 ### Tab helper
 Coming soon...
 
-### Broken links
+### Broken links checker
 Coming soon...
 
 ### API testing example 
