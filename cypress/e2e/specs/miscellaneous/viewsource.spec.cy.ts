@@ -4,6 +4,6 @@ describe("Viewsource suite", () => {
     cy.visit("/");
      
     //Verify text in viewsource
-     cy.viewsource().should("contain", "Geolocations");
+     cy.viewsource().should("contain", "Geolocation");
   });
 });
