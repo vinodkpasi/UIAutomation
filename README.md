@@ -12,7 +12,8 @@ This repo provides ready to use features for Cypress Automation.
 * Exception handling 
 * Drag and drop plugin integration 
 * Custom command for download verification 
-* Custom command for browser popup window 
+* Custom command for browser popup window
+* Custom command for browser tab
 * TypeScript configuration
 * Production environment support 
 * Retry feature 
