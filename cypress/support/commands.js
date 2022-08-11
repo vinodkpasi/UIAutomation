@@ -46,3 +46,9 @@ Cypress.Commands.add("switchToWindow",(url)=>{
       });
   });
 })
+
+Cypress.Commands.add("viewsource", () => {
+  cy.window().then((win) => {
+    return cy.wrap(win.document.documentElement.outerHTML);
+  });
+});

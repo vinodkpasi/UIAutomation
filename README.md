@@ -55,6 +55,9 @@ You can use the custom command **verifyDownload** to verify the downloaded file(
 ### Browser popup window helper
 You can use the custom command **switchToWindow** to switch to the browser popup window. For use case example refer [browserPopupWindow.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/browserPopupWindow.cy.ts) spec.
 
+### Browser page viewsource helper
+You can use the custom command **viewsource** to get the current browser page viewsource. For use case example refer [viewsource.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/viewsource.spec.cy.ts) spec.
+
 ### Drag and drop plugin integration 
 To support the drag and drop functionality  [@4tw/cypress-drag-drop](https://www.npmjs.com/package/@4tw/cypress-drag-drop) plugin is configured. For use case example refer [dragDrop.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/dragDrop.spec.cy.ts) spec.
 

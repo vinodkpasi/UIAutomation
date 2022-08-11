@@ -13,5 +13,11 @@ declare namespace Cypress {
      * @example cy.switchToWindow('url')
      */
     switchToWindow(locator: string): void;
+
+    /**
+     * Custom command to get the browser viewsource
+     * @example cy.viewsource()
+     */
+    viewsource(): Chainable<Element>;
   }
 }
