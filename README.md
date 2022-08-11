@@ -112,6 +112,9 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 ### Fluent API 
 For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login/login.spec.cy.ts) spec.
 
+Tab helper
+Coming soon...
+
 ### API testing example 
 Coming soon...
 
