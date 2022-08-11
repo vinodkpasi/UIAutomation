@@ -52,6 +52,9 @@ To support the production environment **production.config.js** file can be used.
 ### Download verfication
 You can use the custom command **verifyDownload** to verify the downloaded file(based on [cy-verify-downloads](https://www.npmjs.com/package/cypress-xpath) plugin). For use case example refer [downloadVerfication.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/downloadVerfication.cy.ts) spec.
 
+### Broken links verfication
+You can use the custom command **verifyBrokenLinks** to verify the broken links. For use case example refer [brokenLinks.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/brokenLinks.spec.cy.ts) spec.
+
 ### Browser popup window helper
 You can use the custom command **switchToWindow** to switch to the browser popup window. For use case example refer [browserPopupWindow.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/browserPopupWindow.cy.ts) spec.
 
@@ -117,9 +120,6 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login/login.spec.cy.ts) spec.
 
 ### Tab helper
-Coming soon...
-
-### Broken links checker
 Coming soon...
 
 ### API testing example 

@@ -19,5 +19,11 @@ declare namespace Cypress {
      * @example cy.viewsource()
      */
     viewsource(): Chainable<Element>;
+
+    /**
+     * Custom command to verify the broken links
+     * @example cy.verifyBrokenLinks()
+     */
+     verifyBrokenLinks(): Chainable<Element>;
   }
 }

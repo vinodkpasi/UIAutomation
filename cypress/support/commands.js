@@ -52,3 +52,11 @@ Cypress.Commands.add("viewsource", () => {
     return cy.wrap(win.document.documentElement.outerHTML);
   });
 });
+
+Cypress.Commands.add("verifyBrokenLinks", () => {
+  cy.get("a").each($a => {
+    const message = $a.text();
+    expect($a, message).to.have.attr("href").not.contain("undefined");
+    cy.request($a.prop('href'));
+  });
+});
