@@ -39,7 +39,7 @@ module.exports = defineConfig({
     grepFilterSpecs: true,
     grep:'',
     grepTags:'',
-    incognito: true
+    incognito: false
   },
   retries: { runMode: 2},
   video: false,
