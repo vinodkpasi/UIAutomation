@@ -123,7 +123,9 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login/login.spec.cy.ts) spec.
 
 ### Incognito mode
-You can use Use the 'incognito' environment variable to run the chrome/electron/firefox/edge browser to run in the inconito mode. You can define the value using CLI mode or through config file directly.
+You can use use the 'incognito' environment variable to run the chrome/electron/firefox/edge browser to run in the inconito mode. You can define the value using CLI mode or through config file directly.
+
+  **npx cypress run --env incognito=true**
 
 ### Tab helper
 Coming soon...
