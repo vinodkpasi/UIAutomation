@@ -5,6 +5,28 @@ module.exports = defineConfig({
   e2e: {
     baseUrl:'https://the-internet.herokuapp.com',
     setupNodeEvents(on, config) {
+      on("before:browser:launch", (browser = {}, launchOptions) => {
+        if (
+          config.env &&
+          config.env["incognito"] &&
+          config.env["incognito"] === true
+        ) {
+          if (browser.name === "chrome") {
+            launchOptions.args.push("--incognito");
+          }
+          if (browser.name === "firefox") {
+            launchOptions.args.push("-private");
+          }
+          if (browser.name == "edge") {
+            launchOptions.args.push("-inprivate");
+          }
+          if (browser.name === "electron") {
+            launchOptions.preferences.incognito = true;
+          }
+        }
+        return launchOptions;
+      });
+
       // implement node event listeners here
       on('task', { isFileExist, findFiles });
 
@@ -16,7 +38,8 @@ module.exports = defineConfig({
   env: {
     grepFilterSpecs: true,
     grep:'',
-    grepTags:''
+    grepTags:'',
+    incognito: true
   },
   retries: { runMode: 2},
   video: false,

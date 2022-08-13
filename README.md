@@ -19,6 +19,7 @@ This repo provides ready to use features for Cypress Automation.
 * TypeScript configuration
 * Production environment support 
 * Retry feature 
+* Incognito mode
 
 # Installation
 Run the below command to setup the repository
@@ -120,6 +121,9 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 
 ### Fluent API 
 For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/login/login.spec.cy.ts) spec.
+
+### Incognito mode
+You can use Use the 'incognito' environment variable to run the chrome/electron/firefox/edge browser to run in the inconito mode. You can define the value using CLI mode or through config file directly.
 
 ### Tab helper
 Coming soon...
