@@ -20,6 +20,7 @@ This repo provides ready to use features for Cypress Automation.
 * Production environment support 
 * Retry feature 
 * Incognito mode
+* IFrame Support
 
 # Installation
 Run the below command to setup the repository
@@ -126,6 +127,9 @@ For use case example refer [login.spec.cy.ts](https://github.com/vinodkpasi/UIAu
 You can use use the 'incognito' environment variable to run the chrome/electron/firefox/edge browser to run in the inconito mode. You can define the value using CLI mode or through config file(env/incgnito key) directly.
 
   **npx cypress run --env incognito=true**
+
+### IFrame Support
+Coming soon...
 
 ### Tab helper
 Coming soon...
