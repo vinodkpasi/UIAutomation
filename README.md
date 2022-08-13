@@ -16,11 +16,13 @@ This repo provides ready to use features for Cypress Automation.
 * Custom command for browser page viewsource
 * Custom command for checking broken links
 * Custom command for browser tab
+* Custom command for HTML5 video
 * TypeScript configuration
 * Production environment support 
 * Retry feature 
 * Incognito mode
 * IFrame Support
+
 
 # Installation
 Run the below command to setup the repository
@@ -129,6 +131,9 @@ You can use use the 'incognito' environment variable to run the chrome/electron/
   **npx cypress run --env incognito=true**
 
 ### IFrame Support
+Coming soon...
+
+### HTML5 Video Helper
 Coming soon...
 
 ### Tab helper
