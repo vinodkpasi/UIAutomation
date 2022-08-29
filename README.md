@@ -13,6 +13,7 @@ This repo provides ready to use features for Cypress Automation.
 * Drag and drop plugin integration 
 * Custom command for download verification 
 * Custom command for browser popup window
+* Custom command for javascript popup box
 * Custom command for browser page viewsource
 * Custom command for checking broken links
 * Custom command for browser tab
@@ -133,6 +134,8 @@ You can use use the 'incognito' environment variable to run the chrome/electron/
 ### IFrame Support
 You can use the custom command **switchToIframe** to switch to the iframe. For use case example refer [iframe.spec.cy.ts](https://github.com/vinodkpasi/UIAutomation/blob/main/cypress/e2e/specs/miscellaneous/iframe.spec.cy.ts) spec.
 
+### JavaScript popup box
+Coming soon...
 
 ### HTML5 Video Helper
 Coming soon...
