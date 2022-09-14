@@ -24,7 +24,7 @@ This repo provides ready to use features for Cypress Automation.
 * Incognito mode
 * IFrame Support
 * Clipboard functionality
-* Allure report 
+* Allure report(Single file)
 
 
 # Installation
