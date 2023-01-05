@@ -27,7 +27,7 @@ This repo provides ready to use features for Cypress Automation.
 * Allure report(Single file)
 * Email functionality
 * Data driven using excel file
-* Capture cypress log in log file
+* Log file
 
 # Installation
 Run the below command to setup the repository
